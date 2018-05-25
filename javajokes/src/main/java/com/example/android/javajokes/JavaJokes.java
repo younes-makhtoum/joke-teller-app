@@ -1,7 +1,7 @@
 package com.example.android.javajokes;
 
 public class JavaJokes {
-    public String getJoke() {
+    public static String getJoke() {
         return "This is totally a funny joke";
     }
 }
