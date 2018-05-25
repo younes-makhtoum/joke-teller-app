@@ -30,4 +30,5 @@ dependencies {
     implementation 'com.android.support:customtabs:27.1.1'
     implementation 'com.google.android.gms:play-services-ads:15.0.1'
     implementation project(':javajokes')
+    implementation project(':androidjokes')
 }
