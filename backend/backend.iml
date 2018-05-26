@@ -18,7 +18,7 @@
         <option name="HTTP_PORT" value="8080" />
         <option name="WAR_DIR" value="G:\Drive\Apps\UdacityADN\gradle-for-java-and-android\JokeTeller\backend\build\exploded-app" />
         <option name="WEB_APP_DIR" value="G:\Drive\Apps\UdacityADN\gradle-for-java-and-android\JokeTeller\backend\src\main\webapp" />
-        <option name="APPENGINE_SDKROOT" value="C:\Users\Younes\.gradle\appengine-sdk\appengine-java-sdk-1.9.42" />
+        <option name="APPENGINE_SDKROOT" value="C:\Users\Younes\.gradle\appengine-sdk\appengine-java-sdk-1.9.63" />
       </configuration>
     </facet>
   </component>
@@ -27,8 +27,8 @@
     <output-test url="file://$MODULE_DIR$/build/classes/java/test" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/build/generated-source/endpoints/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated-source/endpoints/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/endpointsSrc/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
@@ -40,12 +40,12 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="appengine-endpoints-1.9.42" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="appengine-endpoints-deps-1.9.42" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="appengine-endpoints-1.9.63" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="appengine-endpoints-deps-1.9.63" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="servlet-api-2.5" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="google-api-client-1.23.0" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="google-http-client-android-1.23.0" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="appengine-api-1.0-sdk-1.9.42" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="appengine-api-1.0-sdk-1.9.63" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="google-oauth-client-1.23.0" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="google-http-client-jackson2-1.23.0" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="guava-jdk5-17.0" level="project" />
@@ -56,12 +56,12 @@
     <orderEntry type="library" exported="" scope="PROVIDED" name="httpcore-4.0.1" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="commons-logging-1.1.1" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="commons-codec-1.3" level="project" />
-    <orderEntry type="library" exported="" scope="RUNTIME" name="appengine-endpoints-1.9.42" level="project" />
-    <orderEntry type="library" exported="" scope="RUNTIME" name="appengine-endpoints-deps-1.9.42" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="appengine-endpoints-1.9.63" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="appengine-endpoints-deps-1.9.63" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="servlet-api-2.5" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="google-api-client-1.23.0" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="google-http-client-android-1.23.0" level="project" />
-    <orderEntry type="library" exported="" scope="RUNTIME" name="appengine-api-1.0-sdk-1.9.42" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="appengine-api-1.0-sdk-1.9.63" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="google-oauth-client-1.23.0" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="google-http-client-jackson2-1.23.0" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="guava-jdk5-17.0" level="project" />
@@ -72,12 +72,12 @@
     <orderEntry type="library" exported="" scope="RUNTIME" name="httpcore-4.0.1" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="commons-logging-1.1.1" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="commons-codec-1.3" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="appengine-endpoints-1.9.42" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="appengine-endpoints-deps-1.9.42" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="appengine-endpoints-1.9.63" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="appengine-endpoints-deps-1.9.63" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="servlet-api-2.5" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="google-api-client-1.23.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="google-http-client-android-1.23.0" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="appengine-api-1.0-sdk-1.9.42" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="appengine-api-1.0-sdk-1.9.63" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="google-oauth-client-1.23.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="google-http-client-jackson2-1.23.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="guava-jdk5-17.0" level="project" />
