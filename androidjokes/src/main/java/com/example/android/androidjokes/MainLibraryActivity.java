@@ -7,6 +7,8 @@ import android.widget.TextView;
 
 public class MainLibraryActivity extends AppCompatActivity {
 
+    public static String DISPLAY_JOKE = "DISPLAY_JOKE";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -14,7 +16,7 @@ public class MainLibraryActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
 
-        String importedJoke = intent.getStringExtra("Joke");
+        String importedJoke = intent.getStringExtra(DISPLAY_JOKE);
 
         TextView textView = findViewById(R.id.textView);
         textView.setText(importedJoke);
