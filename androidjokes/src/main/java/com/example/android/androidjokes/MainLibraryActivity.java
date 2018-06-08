@@ -18,7 +18,7 @@ public class MainLibraryActivity extends AppCompatActivity {
 
         String importedJoke = intent.getStringExtra(DISPLAY_JOKE);
 
-        TextView textView = findViewById(R.id.textView);
+        TextView textView = findViewById(R.id.joke_content_display);
         textView.setText(importedJoke);
     }
 }
