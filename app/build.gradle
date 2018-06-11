@@ -28,6 +28,22 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    // Specifies one flavor dimension.
+    flavorDimensions "default"
+
+    productFlavors {
+        free {
+            applicationId = "com.udacity.gradle.builditbigger.free"
+            buildConfigField "boolean", "PAID_VERSION", "false"
+            dimension "default"
+        }
+        paid {
+            applicationId = "com.udacity.gradle.builditbigger.paid"
+            buildConfigField "boolean", "PAID_VERSION", "true"
+            dimension "default"
+        }
+    }
 }
 
 dependencies {
@@ -37,7 +53,7 @@ dependencies {
     implementation 'com.android.support:support-media-compat:27.1.1'
     implementation 'com.android.support:support-v4:27.1.1'
     implementation 'com.android.support:customtabs:27.1.1'
-    implementation 'com.google.android.gms:play-services-ads:15.0.1'
+    freeImplementation 'com.google.android.gms:play-services-ads:15.0.1'
     implementation 'com.google.api-client:google-api-client:1.23.0'
     implementation 'com.google.http-client:google-http-client-android:1.23.0'
     implementation 'com.google.code.findbugs:jsr305:3.0.1'

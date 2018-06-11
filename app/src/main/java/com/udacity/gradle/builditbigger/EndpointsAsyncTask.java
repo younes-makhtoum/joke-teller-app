@@ -10,14 +10,14 @@ import com.google.api.client.googleapis.services.AbstractGoogleClientRequest;
 import com.google.api.client.googleapis.services.GoogleClientRequestInitializer;
 import com.udacity.gradle.builditbigger.backend.myApi.MyApi;
 
-class EndpointsAsyncTask extends AsyncTask<Void, Void, String> {
+public class EndpointsAsyncTask extends AsyncTask<Void, Void, String> {
 
     private static MyApi myApiService = null;
     private final Listener jokeListener;
 
 
     // Interface definition for a callback to be invoked when a joke is retrieved from the backend
-    interface Listener {
+    public interface Listener {
         void onJokeRetrieved(String joke);
     }
 
@@ -33,7 +33,7 @@ class EndpointsAsyncTask extends AsyncTask<Void, Void, String> {
                     // options for running against local devappserver
                     // - 10.0.2.2 is localhost's IP address in Android emulator
                     // - turn off compression when running against local devappserver
-                    .setRootUrl("http://192.168.1.29:8080/_ah/api/")
+                    .setRootUrl("http://192.168.0.9:8080/_ah/api/")
                     .setGoogleClientRequestInitializer(new GoogleClientRequestInitializer() {
                         @Override
                         public void initialize(AbstractGoogleClientRequest<?> abstractGoogleClientRequest) throws IOException {
